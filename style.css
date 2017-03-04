@@ -1,2 +1,32 @@
-.red {background-color:red;}
-.blue {background-color:blue;}
+ul{
+	display: flex;
+	font-family: sans-serif;
+	list-style-type: none;
+	padding: 0 100px 0 100px;
+}
+
+li {
+	color: white;
+	padding: 20px;
+}
+
+li:hover {
+	color: black;
+	background-color: white;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.grow {
+	flex-grow: 1;
+}
